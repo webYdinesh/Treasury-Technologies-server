@@ -18,7 +18,7 @@ connectDB();
 //server entry Point
 app.get("/", (req, res) => {
     return res.send(
-        `Our Website Is Live..<a href=${process.env.ORIGIN}>Click Here</a>`
+        `Our Website Is Live..<a href=${process.env.ORIGIN} target="_blank">Click Here</a>`
     );
 });
 
